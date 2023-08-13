@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --BGCOLOR:aquamarine;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--BGCOLOR);
+}
+
+header{
+    background-color: aliceblue;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    font-size: 2rem;
+    height:15%;
+}
+
+h1{
+    color:green;
+    
+}
+a{
+    cursor: pointer;
+    font-size: 1rem;
+}
+a:hover{
+    color:rgb(161, 11, 11);
+    background-color: rgba(220, 235, 201, 0.192);
+}
+#cook{
+    margin: 3em;
+    border: 2px solid green;
+}
+img{
+    margin: 3em;
+    width:70%;
+    border: 2px solid green;
+    border-radius: 5%;
+    
+}
+figcaption{
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+}
+table{
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    font-size: 2rem;
+}
+th{
+    border: 1px solid green;
+    width: 20%;
+    height:50%;
+}
+td{
+    border: 1px solid green;
+    padding: 0.2em;
+    color:rgb(126, 9, 235)
+}
+img{
+    font-size: x-large;
+    margin: 2em;
+    margin-top: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: blue;
+}
+legend{
+    color: rgb(228, 14, 14);
+    font-size: xx-large;
+}
+.name,.order,.address,.delivery{
+    margin:1em;
+    margin-left:10%;
+    font-size: 2rem;
+}
+.namein,.phonein,.deliveryin,.select::placeholder{
+    height: 30px;
+    width: 50%;
+    font-size: 2rem;
+}
+.addressin{
+    height: 100px;
+    width: 50%;
+    font-size: 2rem;
+}
+.phone{
+    margin-left: 3%;
+    font-size: 2rem;
+}
+.select{
+    width: 50%;
+    height: 70%;
+    font-size: 2rem;
+}
+button{
+    font-size: 2.5rem;
+    align-items: center;
+    margin: 0.6em;
+    color: green;
+    background-color: rgb(199, 172, 172);
+}
+main{
+    position: relative;
+    top: 10%;
+}
+@media screen and (min-width:500px){
+    img{
+        margin-top: 20%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    a{
+        font-size: 1.3rem;
+    }
+    table{
+        font-size: 2.5rem;
+    }
+    td{
+        padding: 0.5em;
+    }
+}
+h2{
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    img{
+        margin-top: 20%;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+    a{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:1000px){
+    img{
+        margin-top: 15%;
+    }
+    header{
+        height: 20%;
+    }
+}
+.best{
+    text-align: center;
+}
+
+.add{
+    color:rgb(243, 113, 37);
+ 
+}
+h1:hover{
+    transition: all 5s 0.1s;
+    transform: translateY(300px) scaleX(200%) rotate(360deg);
+}
+img:hover{
+    transition: all 10s 0.01s;
+    transform: translateX(200px) scaleX(150%) rotate(360deg);
+
+}
