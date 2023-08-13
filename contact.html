@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+<section class="outer">
+    <header>
+    <section id="tit">
+        <h1><strong>Raja Rani Super market</strong></h1>
+    </section>
+    <section>
+    <nav>
+        
+        <a href="index.html">Home</a>
+        <a href="fruits.html">Fruits</a>
+        <a href="vegetables.html">Vegetables</a>
+        <a href="toys.html">Toys</a>
+        <a href="chocolates.html">chocolates</a>
+        <a href="juice.html">Juice</a>
+        <a href="stationery.html">stationary</a>
+        <a href="contact.html">Contact</a>
+    
+    </nav>
+
+    </section>
+    </header>
+<section id="contact">
+    <figure>
+        <img src="supermarket.jpg" alt="supermarket">
+    </figure>
+    <h1 class="best">..... The Best Super Market.....</h1>
+    <form action="" method="get">
+        <fieldset>
+           
+            <legend>Give Order</legend>
+            <div class="name">
+            <label for="message" >Name:</label>
+            <input class="namein" placeholder="name" type="text" required>
+        </div>
+        <div class="phone">
+                <label for="phone">Phone No:</label>
+                <input class="phonein" placeholder="mobile no" type="tel" required>
+            </div>
+            <div class="order">
+                <label for="ordeer">Order:</label>
+                <select class="select" name="content" id="content"required>
+                
+                <option value="milk">milk bikis</option>
+                <option value="marie">marie gold</option>
+            </select>
+            </div>
+            <div class="address">
+                <label  for="address">Address:</label>
+                <textarea class="addressin" name="message" id="message" cols="30" rows="5" placeholder="enter your address" required></textarea>
+            </div>
+            <div class="delivery">
+                <label for="days">Days to Delivery:</label>
+                <input class="deliveryin" type="number" min="1" max="10" step="1" placeholder="within days" required> 
+            </div>
+         
+        <div>
+            <button class="submit" type="submit">Submit</button>
+            <button class="reset" type="reset">Reset</button>
+        </div>
+        </fieldset>
+    </form>
+
+</section>
